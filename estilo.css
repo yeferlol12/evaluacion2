@@ -1,0 +1,61 @@
+/* el body es el cuerpo en general de toda la pagina */
+body {
+    /* este atributo es el que nos da el tipo de tipografia de una letra */
+    font-family: sans-serif;
+    /* este atributo es el que nos da la margen externa a un contenedor */
+    margin: 0;
+}
+
+/* este selector contenedor es el que le da un estilo al contenedor padre */
+.contenedor {
+    /*atributo display es el que especifica sin un elemnto esta en bloque o en line */
+    display: flex; 
+    /* atributo flex-wrap es el que controla el desvordamiento de elmentos */
+    flex-wrap: wrap; 
+    /*atributo justify-content este es el que ayuda aliniar los contenedores  */
+    justify-content: space-around; 
+    /* atributo padding este es el que le da una margen interna a cada contenedor */
+    padding: 20px;
+}
+
+/*.tarjeta este selector es el que la funcion a cada tarjeta */
+.tarjeta {
+    /* atributo width este atributo es el que le da el tamaño a cada contenedro de tarjeta*/
+    width: 300px; 
+    /*atributo margin esta le da una margen externa a cada contenedor de tarjeta*/
+    margin: 10px; 
+    /*atributo border esta le da un borde a cada contenedor visible */
+    border: 1px solid #ccc; 
+    /*atributo padding este le da una margen interna a cada contenedor de tarjeta*/
+    padding: 20px; 
+    /*atributo border-radius esta le da una ovalacion a cada escquina del contenedor de tarjeta*/
+    border-radius: 5px; 
+    /*atributo box-shadow este atributo le da sombra a cada contenedor de tarjeta */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/*selector .tarjeta img esta le da una funcion a cada imanjen que tenga en la clase tarjeta */
+.tarjeta img {
+    /*atributo width esta le da un tamaño a cada imagen dentro del contenedor*/
+    width: 100%; 
+    /*atributo height esta le da una altura a la imagen dentro de la clase tarjeta */
+    height: auto; 
+    /*atributo display esta le da una especificacion de como quiere que este la imagen dentro del contenedor si en bloque o en linea */
+    display: block; 
+    /*atributo border-radius esta le da un borde a cada imagen */
+    border-radius: 5px 5px 0 0; 
+}
+
+/* Agrega un comentario aquí para explicar la función del selector .tarjeta h3 */
+.tarjeta h3 {
+    /* Agrega un comentario aquí para explicar el atributo margin-top */
+    margin-top: 10px; 
+}
+
+/*selector .tarjeta p esta le da una funcion a cada parrafo dentro de la clase tarjeta*/
+.tarjeta p {
+    /*atributo font-size esta le da tipografia a el parrafo */
+    font-size: 0.9em; 
+    /* atributo line-height esta da la altura de cada casilla dentro del parrafo */
+    line-height: 1.5; 
+}
